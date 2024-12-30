@@ -1,0 +1,160 @@
+.containerAdd_Article {
+    display: flex;
+    justify-content: flex-start;
+
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+body {
+    background-image: url('../media/freeBakc1.jpg');
+    background-position: left;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.326);
+    backdrop-filter: blur(0px);
+    z-index: 1;
+}
+
+.containerAdd_Article form h1 {
+    font-size: 18px !important;
+    font-weight: 100;
+    margin-bottom: 20px;
+    color: rgb(21, 21, 21);
+}
+
+.containerAdd_Article form {
+    max-width: 1000px;
+    width: 100%;
+    background-color: var(--main-color-light);
+    filter: drop-shadow(0 0 1px var(--filterColor));
+    border-radius: 12px;
+    margin-top: 40px;
+    min-height: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.cntInpArticle label {
+    position: absolute;
+    transition: .2s;
+    left: 10px;
+}
+
+.cntInpArticle input:not(:placeholder-shown) {
+    border: solid 1px var(--border-focusON);
+}
+
+.cntInpArticle input:focus+label,
+.cntInpArticle input:not(:placeholder-shown)+label {
+    transform: translateY(-15px);
+    font-size: 12px !important;
+    color: rgb(16, 124, 255);
+}
+
+.cntInpArticle input {
+    width: 100%;
+    padding: 10px;
+    padding-top: 30px;
+    font-size: 16px !important;
+}
+
+.cntInpArticle select option:first-child{
+    opacity: .3;
+}
+.cntInpArticle select {
+    width: 50%;
+    padding: 10px;
+    padding-top: 30px;
+    font-size: 16px !important;
+}
+
+.desPType {
+    position: absolute;
+    top: 0px;
+    color: rgb(16, 124, 255);
+    left: 20px;
+}
+
+.cntInpArticle {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    position: relative;
+}
+
+.AddImgIcone {
+    width: 300px;
+    stroke-width: .5px;
+    height: 300px;
+    fill: #fff;
+    display: none;
+}
+
+.cntImgElement label {
+    width: 100%;
+    max-width: 300px;
+    padding: 6px;
+    border-radius: 20px;
+    background-color: var(--main-color);
+    color: #fff;
+    text-align: center;
+    margin: 10px 0;
+
+    filter: drop-shadow(0 10px 8px var(--filterColor));
+}
+
+.cntImgElement p {
+    font-size: 13px !important;
+    color: rgb(84, 1, 1);
+    margin-top: 10px;
+}
+
+.imgElement {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    object-position: center;
+    display: none;
+}
+
+.cntImgElement {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+    position: relative;
+}
+
+#btnAddElement {
+    color: #fff;
+    width: 250px;
+    margin-top: 40px;
+
+}

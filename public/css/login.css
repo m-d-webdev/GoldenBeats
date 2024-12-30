@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.contianer form {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    animation-duration: .5s;
+    border-radius: 10px;
+    background-color: var(--main-color-light);
+    height: 600px;
+    width: 600px;
+    filter: drop-shadow(0 0 10px var(--filterColor));
+}
+
+.titleFomr {
+    font-size: 19px !important;
+}
+.imgUndrew{
+    width: 500px;
+}
+
+/* --------- */
+.cntInputs label {
+    transition: .1s;
+    color: var(--textcolor);
+    position: absolute;
+    left: 15px;
+}
+
+.cntInputs input:focus+label,
+.cntInputs input:not(:placeholder-shown)+label {
+    color: rgb(0, 60, 255);
+    transform: translateY(-15px);
+    font-size: 12px !important;
+}
+
+.cntInputs input:focus {
+    border: solid 1px var(--border-focusON);
+}
+
+.cntInputs input {
+    padding: 10px;
+    padding-top: 20px;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    background-color: transparent;
+    color: var(--textcolor);
+    border: solid 1px var(--border-focus);
+}
+.errorEmailNotFound{
+    color: red;
+    font-size: 11px !important;
+    margin-top: 5px;
+    position: absolute;
+    bottom: -25px;
+    text-align: start;
+}
+
+.cntInputs {
+    width: 90%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.btnForgetPass {
+    align-self: flex-start;
+    margin-left: 20px;
+    background-color: transparent;
+    border: none;
+    opacity: .7;
+    font-size: 13px !important;
+    transition: .1s;
+    position: relative;   
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+
+.btnForgetPass:hover{
+    opacity: 1;
+}
+.btnForgetPass:hover::after{
+    width: 100%;
+}
+.btnForgetPass::after{
+    content: "";
+    width:0px;
+    position: absolute;
+    bottom: -5px;
+    transition: .2s;
+    height: 2px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#btnLogin {
+    position: relative;
+    width: 200px;
+    padding: 3px;
+    background-color: rgb(35, 86, 255);
+    color: #fff;
+    border: none;
+
+    border-radius: 8px;
+}
+
+#btnRegister img{
+    width: 22px;
+    margin-right: 10px;
+}
+#btnRegister {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+}
+

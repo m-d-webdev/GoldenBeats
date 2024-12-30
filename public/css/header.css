@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: var(--main-color-light);
+}
+
+
+.NaveBare h1 {
+    margin-left: 5px;
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: 18px !important;
+}
+
+
+.NaveBare {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var( --main-color-light);
+    width: 100%;
+    padding: 10px ;
+    padding-right: 20px;
+    /* margin-bottom: 10px; */
+}
+
+.cntBareSearch svg{
+    fill:var(--textcolor);
+    width: 30px;
+    height: 30px;
+}
+
+.cntBareSearch input{
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 4px 10px;
+    width: 100%;
+    max-width: 500px;
+    outline: none;
+    border: solid 1px var(--border-focus);
+}
+.cntBareSearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.cntLogo img {
+    width: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px
+}
+
+.cntButtonsLogo button p {
+    font-size: 13px !important;
+    color: var(--textcolor);
+}
+
+.cntButtonsLogo button img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.cntButtonsLogo button:hover::after {
+    width: 100%;
+}
+
+.cntButtonsLogo button::after {
+    content: "";
+    position: absolute;
+    transition: .2s;
+    width: 0%;
+    height: 2px;
+    bottom: -4px;
+    background-color: rgb(0, 38, 255);
+    border-radius: 10px;
+}
+
+.cntButtonsLogo button:active {
+    transform: scale(0.9);
+}
+
+.cntButtonsLogo button svg{
+    width: 25px !important; 
+    height: 25px !important;
+    margin-right: 10px;
+}
+.cntButtonsLogo button {
+    padding: 4px 10px;
+    border-radius: 4px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    transition: .1s;
+    align-items: center;
+}
+
+.cntButtonsLogo #BTN_premium::after {
+    background-color: rgb(255, 208, 21);
+}
+
+.cntButtonsLogo #BTN_premium {
+    margin-right: 10px;
+    min-width: 150px;
+    border-radius: 7px;
+    border: solid 1px rgb(255, 208, 21);
+}
+
+.cntButtonsLogo {
+    /* width: 30%; */
+    justify-self: end;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#BTN_logout svg{
+    fill: none;
+    width: 25px !important;
+    height: 25px !important;
+    margin-right: 10px;
+}
+.cntLogo {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+.profileButton p{
+    white-space: nowrap;
+
+}
+
+.imgUser{
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}

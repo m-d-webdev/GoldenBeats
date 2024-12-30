@@ -1,0 +1,49 @@
+.formAddStagiare select{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+
+}
+.formAddStagiare input{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+}
+.formAddStagiare button{
+    margin: auto;
+    margin-top: 20px;
+    width: 200px;
+    padding: 8px;
+    background-color: rgb(23, 93, 255);
+    border-radius: 9px;
+    color: #fff;
+}
+
+.formAddStagiare img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+    object-fit: cover;
+    object-position: top;
+}
+.formAddStagiare{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+
+}
+.lblSelectImg{
+    width: 100%;
+    margin-top: 10px;
+    background-color: var(--main-color-dark);
+    color: var(--textcolor-rev);
+    padding: 7px;
+    border-radius: 10px;
+    text-align: center;
+}

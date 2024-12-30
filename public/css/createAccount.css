@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Poppins", sans-serif; */
+}
+
+
+.contianer form {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--main-color-light);
+    height: 650px;
+    animation-duration: .5s;
+    width: 600px;
+    filter: drop-shadow(0 0 10px var(--filterColor));
+}
+
+.titleFomr {
+    font-size: 19px !important;
+}
+
+
+.imgUndrew{
+    width: 500px;
+}
+/* --------- */
+.cntInputs label {
+    transition: .1s;
+    position: absolute;
+    left: 15px;
+    
+}
+
+.cntInputs input:focus+label,
+.cntInputs input:not(:placeholder-shown)+label {
+    color: var(--border-focus);
+    transform: translateY(-15px);
+    font-size: 12px !important;
+}
+
+.cntInputs input:focus {
+    border: solid 1px var(--border-focusON);
+}
+
+.cntInputs input {
+    padding: 10px;
+    padding-top: 20px;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    border: solid 1px var(--border-focus);
+}
+
+.cntInputs {
+    width: 90%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+
+
+
+#btnRegister {
+    position: relative;
+    width: 250px;
+    padding: 4px;
+    background-color: rgb(35, 86, 255);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+
+

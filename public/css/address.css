@@ -1,0 +1,40 @@
+.container form {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    animation-duration: .5s;
+    border-radius: 10px;
+    background-color: var(--main-color-light);
+    height: 700px;
+    width: 600px;
+    filter: drop-shadow(0 0 10px var(--filterColor));
+}
+.cntBtnSubmitForm button:first-child svg{
+    margin-right: 10px;
+    fill: var(--textcolor-rev);
+}
+.cntBtnSubmitForm button:nth-child(2) svg{
+    fill: #fff;
+    margin-left: 10px;
+}
+.cntBtnSubmitForm button:nth-child(2){
+    width: 150px;
+    background-color: var(--main-color);
+    color: #fff;
+}
+.cntBtnSubmitForm button:first-child{
+    width: 110px;
+    background-color: var(--main-color-dark);
+    color: var( --textcolor-rev);
+
+}
+.cntBtnSubmitForm{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.ImgIllustr {
+    width: 500px;
+}

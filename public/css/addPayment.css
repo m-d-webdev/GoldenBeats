@@ -1,0 +1,6 @@
+.formAddPayment{
+    width: 600px;
+    height: 600px;
+    background-color: var(--main-color-light);
+    filter:drop-shadow(0 0 10px var(--filterColor));
+}

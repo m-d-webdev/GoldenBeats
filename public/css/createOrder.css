@@ -1,0 +1,114 @@
+.cnt_etap_creating_order {
+    /* border: solid 1px black; */
+    width: 100%;
+    margin: auto;
+    max-width: 1000px;
+    position: relative;
+    border-radius: 20px;
+    background-color: var(--main-color-light);
+    filter: drop-shadow(0 0 2px var(--filterColor));
+}
+
+.btnNextTOPay svg{
+   width: 35px;
+   height: 35px;
+}
+.btnNextTOPay {
+    align-self: end;
+    margin-top: 50px;
+    font-size: 18px;
+    padding: 10px;
+    width: 200px;
+}
+
+.listAllAddress {
+    margin-left: 30px;
+    border-left: solid 1px var(--border-focus);
+    animation: animateListAdderss .2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    display: none;
+}
+
+.litOfOtherCards {
+    margin-left: 30px;
+    animation: animateListAdderss .2s;
+    display: none;
+}
+
+@keyframes animateListAdderss {
+    0% {
+        transform: scaleY(0);
+    }
+}
+
+.svgDoneAddres {
+    display: none;
+}
+
+.choosedAddre.active button {
+    display: none;
+}
+
+.choosedAddre.active .svgDoneAddres {
+    display: flex;
+    fill: var(--main-color);
+    margin-left: 15px;
+}
+
+.choosedAddre.active svg {
+    fill: var(--main-color);
+}
+
+.choosedAddre.active {
+    padding: 5px 20px;
+    color: var(--main-color);
+    border: solid 1px var(--main-color);
+    border-radius: 20px;
+
+}
+
+.btnUseCard {
+    opacity: 0;
+    position: absolute;
+    right: 30px;
+}
+.creditCardElement .svgDoneCardPa{
+    display: none;
+}
+.creditCardElement.active{
+    border: solid 2px var(--main-color);
+}
+.creditCardElement.active .svgDoneCardPa {
+    position: absolute;
+    display: block;
+    right: 40px;
+    width: 30px;
+    height: 30px;
+    top: 20px;
+}
+
+.btnConfirmCommand {
+    align-self: end;
+}
+
+/* ---- */
+.btnConfrimOrder svg {
+    width: 30px;
+    margin-left: 20px;
+    height: 30px;
+    fill: #FFF;
+}
+
+.btnConfrimOrder {
+    background-color: green;
+    color: #ffff;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 17px;
+}

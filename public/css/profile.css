@@ -1,0 +1,235 @@
+.btnLogOut:hover {
+    background-color: var(--main-color) !important;
+}
+
+.btnLogOut {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.sidePareProfile a:hover {
+    background-color: var(--main-color3);
+}
+
+.sidePareProfile a {
+    cursor: pointer;
+    width: 100%;
+}
+
+.sidePareProfile {
+    height: 600px;
+    width: 15%;
+    min-width: 180px;
+    position: relative;
+}
+
+.mainProfileInfo {
+    width: 80%;
+}
+
+/* ------------------------------------  P E R S O N A L  I N F O  R M A T I O N  */
+.userImage {
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    height: 200px;
+}
+
+.cntSecondUserInfo .LabelinpInfo {
+    padding-right: 100px;
+    max-width: 600px;
+    margin-left: 40px;
+}
+
+.cntSecondUserInfo .LabelinpInfo button {
+    position: absolute;
+    right: 0px;
+    display: none;
+}
+
+.cntSecondUserInfo {
+    width: 100%;
+}
+
+/* -------- ADDRESSES M A N A G E M E N T ---------------- */
+.list_addressELEM {
+    border-left: solid 1px var(--border-focus);
+}
+
+/*  --------- P A Y M E N T   M E T H O D S  --------------------- */
+/* .creditCardElement img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5;
+    z-index: -1;
+} */
+.creditCardElement h1 {
+    /* color: #fff; */
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.creditCardElement .emvImg {
+    width: 50px;
+    position: absolute;
+    top: 30%;
+    left: 10px;
+}
+
+.creditCardElement .creditCardTypeImg {
+    position: absolute;
+    bottom: 10px;
+    max-height: 30px;
+    max-width: 50px;
+    right: 20px;
+}
+
+.creditCardElement .cardNumber {
+    position: absolute;
+    bottom: 80px;
+    left: 30px;
+    font-size: 22px;
+    font-family: "Saira", sans-serif;
+
+    letter-spacing: 2px;
+    opacity: .7;
+}
+
+.creditCardElement .expiration_dateELME {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    font-size: 12px;
+}
+
+.creditCardElement .cardUserName {
+    font-weight: 600;
+}
+
+.creditCardElement:hover {
+    filter: drop-shadow(0 0 100px var(--filterColor));
+    transform: scale(1.1);
+}
+
+.creditCardElement:hover .btnUseCard{
+    opacity: 1;
+    transform: translateY(-60px);
+}
+.creditCardElement:hover .btnDeleCard {
+    opacity: 1;
+    transform: translateY(-60px);
+}
+
+.creditCardElement:hover .btnDetasDefault {
+    opacity: 1;
+    transform: translateY(-60px);
+}
+
+.creditCardElement {
+    position: relative;
+    transition: .2s;
+    width: 430px;
+    background-color: var(--main-color-light);
+    filter: drop-shadow(0 0 10px var(--filterColor));
+    height: 240px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.listALlCards {
+    width: 100%;
+
+}
+
+.btnDeleCard {
+    right: 10px;
+    top: 25px;
+    opacity: 0;
+    transition: .2s;
+    position: absolute;
+    cursor: pointer;
+}
+
+.btnDetasDefault {
+    left: 10px;
+    top: 25px;
+    cursor: pointer;
+    opacity: 0;
+    transition: .2s;
+    position: absolute;
+}
+
+/* ---- C U S TO M E R S  U P  P O R  T ------------ */
+.ctINroducongCustsUP img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    object-position: center;
+    /* position: absolute; */
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.ctINroducongCustsUP::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 80%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.040966386554621814) 0%, rgba(0, 4, 6, 0.6292016806722689) 53%, rgba(1, 7, 15, 0.9233193277310925) 100%);
+    left: 0;
+    top: 0;
+}
+
+.ctINroducongCustsUP h1{
+    position: absolute;
+    top: 30px;
+    color: #fff;
+}
+.ctINroducongCustsUP {
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+}
+
+.cntPhoneNumber p{
+    font-size: 17px;
+    font-weight: 600;
+}
+.cntPhoneNumber{
+    padding: 5px;
+    width: 350px;
+    border-radius: 20px;
+    border: solid 1px var(--main-color);
+}
+/* ------------------- */
+.commandCard{
+    border: solid 1px var(--border-focus);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.ListElmeOrder::-webkit-scrollbar-thumb{
+    background-color: var(--main-color-dark);
+    border-radius: 100%;
+}
+.ListElmeOrder::-webkit-scrollbar{
+    width: 5px;
+}
+.ListElmeOrder{
+    width: 50%;
+    height: 100%;
+    max-height: 100%;
+    overflow: auto;
+}
+
+.cardOrderElem img{
+    max-width: 300px;
+    max-height: 300px;
+}
+

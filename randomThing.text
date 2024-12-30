@@ -1,0 +1,1347 @@
+
+        <div class="cntMenu" id="cntBURGERS">
+            <div class="titleType">
+                <img src="{{ asset('icones/burgerlogo.png') }}" alt="">
+
+                <h1>Burgers </h1>
+            </div>
+
+            <div class="cntListFood">
+                <section id="burger-card">
+                    <!-- Classic Cheeseburger -->
+                    <div class="burger-card">
+                        <img src="{{ asset('burgersImgs/burgerType1.png') }}" alt="">
+                        <h1>Classic Cheeseburger</h1>
+                        <p>A beef patty topped with melted cheese, lettuce, tomato, and a special sauce.</p>
+                        <p><strong>Popular Additions:</strong> Pickles, Onions, Ketchup</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Bacon Burger -->
+                    <div class="burger-card">
+                        <img src="{{ asset('burgersImgs/burgerType2.png') }}" alt="">
+                        <h1>Bacon Burger</h1>
+                        <p>A classic burger topped with crispy bacon, adding a smoky flavor.</p>
+                        <p><strong>Popular Additions:</strong> Cheddar Cheese, BBQ Sauce</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+                    <!-- Double/Triple Burger -->
+                    <div class="burger-card">
+                        <img src="{{ asset('burgersImgs/burgerType3.png') }}" alt="">
+                        <h1>Double/Triple Burger</h1>
+                        <p>Multiple patties stacked with cheese, often ordered for a heartier meal.</p>
+                        <p><strong>Popular Additions:</strong> Extra Cheese, Special Sauces</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+                    <!-- Chicken Burger -->
+                    <div class="burger-card">
+                        <img src="{{ asset('burgersImgs/burgerType4.png') }}" alt="">
+                        <h1>Chicken Burger</h1>
+                        <p>A tender chicken breast patty, usually grilled or fried, served with fresh vegetables and
+                            sauces.</p>
+                        <p><strong>Popular Additions:</strong> Lettuce, Tomato, Mayonnaise</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Veggie Burger -->
+                    <div class="burger-card">
+                        <img src="{{ asset('burgersImgs/burgerType5.png') }}" alt="">
+                        <h1>Veggie Burger</h1>
+                        <p>A meatless option made with vegetables, beans, or tofu, ideal for vegetarians.</p>
+                        <p><strong>Popular Additions:</strong> Avocado, Hummus, Veggie Patty</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Fish Burger -->
+                    <div class="burger-card">
+                        <img src="{{ asset('burgersImgs/burgerType6.png') }}" alt="">
+                        <h1>Fish Burger</h1>
+                        <p>A fish fillet, typically fried, topped with lettuce, tomato, and tartar sauce.</p>
+                        <p><strong>Popular Additions:</strong> Pickles, Tartar Sauce, Cheese</p>
+                        <button>
+                            <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="burger-card">
+                        <img src="{{ asset('burgersImgs/burgerType7.png') }}" alt="">
+                        <h1>BBQ Burger</h1>
+                        <p>Topped with barbecue sauce, caramelized onions, and cheddar cheese, offering a smoky and
+                            tangy flavor.</p>
+                        <p><strong>Popular Additions:</strong> Onion Rings, Bacon, BBQ Sauce</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Mushroom Swiss Burger -->
+                    <div class="burger-card">
+                        <img src="{{ asset('burgersImgs/burgerType8.png') }}" alt="">
+                        <h1>Mushroom Swiss Burger</h1>
+                        <p>A gourmet burger with sautéed mushrooms and melted Swiss cheese.</p>
+                        <p><strong>Popular Additions:</strong> Swiss Cheese, Mushrooms, Onion</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+                    <!-- Spicy Jalapeño Burger -->
+                    <div class="burger-card">
+                        <img src="{{ asset('burgersImgs/burgerType9.png') }}" alt="">
+                        <h1>Spicy Jalapeño Burger</h1>
+                        <p>A spicy burger topped with jalapeños, spicy sauce, and pepper jack cheese.</p>
+                        <p><strong>Popular Additions:</strong> Spicy Mayo, Jalapeños, Pepper Jack</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- turkies Burger -->
+
+
+                    <div class="burger-card">
+                        <img src="{{ asset('burgersImgs/burgerType10.png') }}" alt="">
+                        <h1>Turkey Burger</h1>
+                        <p>A leaner option made from ground turkey, offering a healthier alternative to beef.</p>
+                        <p><strong>Popular Additions:</strong> Avocado, Spinach, Cranberry Sauce</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+                    <!-- slider Burger -->
+                    <div class="burger-card">
+                        <img src="{{ asset('burgersImgs/burgerType11.png') }}" alt="">
+                        <h1>Slider</h1>
+                        <p>A small-sized burger, often served in pairs or trios, ideal as a snack or appetizer.</p>
+                        <p><strong>Popular Additions:</strong> Cheese, Pickles, Mini Buns</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+                    <!-- Lamb Burger -->
+                    <div class="burger-card">
+                        <img src="{{ asset('burgersImgs/burgerType12.png') }}" alt="">
+                        <h1>Lamb Burger</h1>
+                        <p>A unique take using ground lamb, seasoned with Mediterranean spices.</p>
+                        <p><strong>Popular Additions:</strong> Feta Cheese, Tzatziki Sauce, Arugula</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+
+        <div class="cntMenu" id="cntPizza">
+            <div class="titleType">
+                <img src="{{ asset('icones/pizzalogo.png') }}" alt="">
+                <h1>Pizza </h1>
+            </div>
+            <div class="cntListFood">
+                <section id="pizza-types">
+                    <!-- Margherita Pizza -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pizzaimgs/pizz1-removebg-preview.png') }}" alt="Margherita Pizza">
+                        <h1>Margherita Pizza</h1>
+                        <p>A simple yet classic pizza topped with fresh mozzarella cheese, tomatoes, and basil.</p>
+                        <p><strong>Popular Toppings:</strong> Fresh Basil, Olive Oil, Parmesan</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Pepperoni Pizza -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pizzaimgs/pizza2-removebg-preview.png') }}" alt="Pepperoni Pizza">
+                        <h1>Pepperoni Pizza</h1>
+                        <p>A crowd favorite with spicy pepperoni slices spread across melted cheese and marinara sauce.
+                        </p>
+                        <p><strong>Popular Toppings:</strong> Extra Cheese, Sausage</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- BBQ Chicken Pizza -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pizzaimgs/pizza3-removebg-preview.png') }}" alt="BBQ Chicken Pizza">
+                        <h1>BBQ Chicken Pizza</h1>
+                        <p>Topped with tangy barbecue sauce, grilled chicken, and red onions, this pizza offers a smoky
+                            flavor.</p>
+                        <p><strong>Popular Toppings:</strong> Bacon, Cheddar Cheese</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Hawaiian Pizza -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pizzaimgs/pizza4-removebg-preview.png') }}" alt="Hawaiian Pizza">
+                        <h1>Hawaiian Pizza</h1>
+                        <p>A polarizing favorite featuring sweet pineapple and savory ham on a cheesy pizza base.</p>
+                        <p><strong>Popular Toppings:</strong> Extra Pineapple, Bacon</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Meat Lover's Pizza -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pizzaimgs/pizza5-removebg-preview.png') }}" alt="Meat Lover's Pizza">
+                        <h1>Meat Lover's Pizza</h1>
+                        <p>Packed with various types of meat like pepperoni, sausage, ham, and bacon for a protein-rich
+                            meal.</p>
+                        <p><strong>Popular Toppings:</strong> Extra Cheese, BBQ Sauce</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Veggie Pizza -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pizzaimgs/pizza6-removebg-preview.png') }}" alt="Veggie Pizza">
+                        <h1>Veggie Pizza</h1>
+                        <p>Perfect for vegetarians, this pizza is loaded with fresh vegetables like bell peppers,
+                            mushrooms, and olives.</p>
+                        <p><strong>Popular Toppings:</strong> Spinach, Feta Cheese, Artichokes</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Four Cheese Pizza -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pizzaimgs/pizza7-removebg-preview.png') }}" alt="Four Cheese Pizza">
+                        <h1>Four Cheese Pizza</h1>
+                        <p>A rich and cheesy delight made with mozzarella, parmesan, gorgonzola, and ricotta cheeses.
+                        </p>
+                        <p><strong>Popular Toppings:</strong> Basil, Garlic</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Buffalo Chicken Pizza -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pizzaimgs/pizza8-removebg-preview.png') }}" alt="Buffalo Chicken Pizza">
+                        <h1>Buffalo Chicken Pizza</h1>
+                        <p>This pizza is made with spicy buffalo sauce, grilled chicken, and a blue cheese drizzle.</p>
+                        <p><strong>Popular Toppings:</strong> Ranch Dressing, Green Onions</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Supreme Pizza -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pizzaimgs/pizza9-removebg-preview.png') }}" alt="Supreme Pizza">
+                        <h1>Supreme Pizza</h1>
+                        <p>A loaded pizza topped with pepperoni, sausage, bell peppers, onions, mushrooms, and olives.
+                        </p>
+                        <p><strong>Popular Toppings:</strong> Extra Cheese, Jalapeños</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- White Pizza -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pizzaimgs/pizza10-removebg-preview.png') }}" alt="White Pizza">
+                        <h1>White Pizza</h1>
+                        <p>A creamy pizza without tomato sauce, topped with a blend of cheeses and often garlic and
+                            spinach.</p>
+                        <p><strong>Popular Toppings:</strong> Spinach, Artichokes</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+
+        <div class="cntMenu" id="cntTacos">
+            <div class="titleType">
+                <img src="{{ asset('icones/tacologo.png') }}" alt="">
+                <h1>Taco </h1>
+            </div>
+            <div class="cntListFood">
+                <section id="taco-types">
+                    <!-- Korean BBQ Tacos -->
+                    <div class="burger-card">
+                        <img src="{{ asset('tacosimg/taco1.jpeg') }}" alt="Korean BBQ Tacos">
+                        <h1>Korean BBQ Tacos</h1>
+                        <p>Marinated Korean beef (like bulgogi) served in tortillas with kimchi.</p>
+                        <p><strong>Popular Toppings:</strong> Kimchi, Sesame Seeds, Sriracha</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Thai Chicken Tacos -->
+                    <div class="burger-card">
+                        <img src="{{ asset('tacosimg/taco2.png') }}" alt="Thai Chicken Tacos">
+                        <h1>Thai Chicken Tacos</h1>
+                        <p>Grilled chicken marinated in Thai spices, served with a spicy peanut sauce.</p>
+                        <p><strong>Popular Toppings:</strong> Cabbage Slaw, Peanuts, Cilantro</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Indian Chicken Tacos -->
+                    <div class="burger-card">
+                        <img src="{{ asset('tacosimg/taco3.png') }}" alt="Indian Chicken Tacos">
+                        <h1>Indian Chicken Tacos</h1>
+                        <p>Chicken cooked with Indian spices, served with a yogurt sauce.</p>
+                        <p><strong>Popular Toppings:</strong> Cucumber, Mint, Onion</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Buffalo Cauliflower Tacos -->
+                    <div class="burger-card">
+                        <img src="{{ asset('tacosimg/taco4.png') }}" alt="Buffalo Cauliflower Tacos">
+                        <h1>Buffalo Cauliflower Tacos</h1>
+                        <p>Fried cauliflower tossed in buffalo sauce, served in tortillas.</p>
+                        <p><strong>Popular Toppings:</strong> Ranch Dressing, Celery, Blue Cheese</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Jamaican Jerk Chicken Tacos -->
+                    <div class="burger-card">
+                        <img src="{{ asset('tacosimg/taco5.png') }}" alt="Jamaican Jerk Chicken Tacos">
+                        <h1>Jamaican Jerk Chicken Tacos</h1>
+                        <p>Grilled chicken marinated in jerk spices, served with mango salsa.</p>
+                        <p><strong>Popular Toppings:</strong> Mango Salsa, Cilantro, Lime</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Mediterranean Lamb Tacos -->
+                    <div class="burger-card">
+                        <img src="{{ asset('tacosimg/taco6.png') }}" alt="Mediterranean Lamb Tacos">
+                        <h1>Mediterranean Lamb Tacos</h1>
+                        <p>Ground lamb seasoned with spices, served in pita or tortillas.</p>
+                        <p><strong>Popular Toppings:</strong> Tzatziki Sauce, Tomatoes, Lettuce</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- BBQ Pulled Pork Tacos -->
+                    <div class="burger-card">
+                        <img src="{{ asset('tacosimg/taco7.png') }}" alt="BBQ Pulled Pork Tacos">
+                        <h1>BBQ Pulled Pork Tacos</h1>
+                        <p>Slow-cooked pulled pork in BBQ sauce, served in tortillas.</p>
+                        <p><strong>Popular Toppings:</strong> Coleslaw, Pickles, BBQ Sauce</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Cajun Shrimp Tacos -->
+                    <div class="burger-card">
+                        <img src="{{ asset('tacosimg/taco8.png') }}" alt="Cajun Shrimp Tacos">
+                        <h1>Cajun Shrimp Tacos</h1>
+                        <p>Spicy shrimp seasoned with Cajun spices, served with a creamy sauce.</p>
+                        <p><strong>Popular Toppings:</strong> Cabbage Slaw, Lime, Avocado</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Vegan Tacos with Lentils -->
+                    <div class="burger-card">
+                        <img src="{{ asset('tacosimg/taco9.png') }}" alt="Vegan Tacos with Lentils">
+                        <h1>Vegan Tacos with Lentils</h1>
+                        <p>Lentils cooked with spices, served in tortillas with fresh toppings.</p>
+                        <p><strong>Popular Toppings:</strong> Avocado, Salsa, Fresh Cilantro</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Banh Mi Tacos -->
+                    <div class="burger-card">
+                        <img src="{{ asset('tacosimg/taco10.png') }}" alt="Banh Mi Tacos">
+                        <h1>Banh Mi Tacos</h1>
+                        <p>A fusion of Vietnamese banh mi flavors, typically with pork or tofu.</p>
+                        <p><strong>Popular Toppings:</strong> Pickled Carrots, Cucumbers, Cilantro</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+
+        <div class="cntMenu" id="cntSushi">
+            <div class="titleType">
+                <img src="{{ asset('sushiimgs/sushilogo.png') }}" alt="">
+                <h1>Sushi </h1>
+            </div>
+            <div class="cntListFood">
+                <section id="sushi-types">
+                    <!-- Maguro Nigiri -->
+                    <div class="burger-card">
+                        <img src="{{ asset('sushiimgs/sushi1.png') }}" alt="Maguro Nigiri">
+                        <h1>Maguro Nigiri</h1>
+                        <p>A slice of raw tuna placed on a small mound of vinegared rice.</p>
+                        <p><strong>Popular Toppings:</strong> Wasabi, Soy Sauce</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Sake Nigiri -->
+                    <div class="burger-card">
+                        <img src="{{ asset('sushiimgs/sushi2.png') }}" alt="Sake Nigiri">
+                        <h1>Sake Nigiri</h1>
+                        <p>A slice of raw salmon placed on vinegared rice.</p>
+                        <p><strong>Popular Toppings:</strong> Soy Sauce, Wasabi</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Ebi Nigiri -->
+                    <div class="burger-card">
+                        <img src="{{ asset('sushiimgs/sushi3.png') }}" alt="Ebi Nigiri">
+                        <h1>Ebi Nigiri</h1>
+                        <p>Cooked shrimp placed on rice, often served with a little wasabi.</p>
+                        <p><strong>Popular Toppings:</strong> Soy Sauce, Lemon Juice</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Unagi Nigiri -->
+                    <div class="burger-card">
+                        <img src="{{ asset('sushiimgs/sushi4.png') }}" alt="Unagi Nigiri">
+                        <h1>Unagi Nigiri</h1>
+                        <p>Grilled eel served with rice, often topped with a sweet soy-based sauce.</p>
+                        <p><strong>Popular Toppings:</strong> Sweet Soy Sauce, Sesame Seeds</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Tamago Nigiri -->
+                    <div class="burger-card">
+                        <img src="{{ asset('sushiimgs/sushi5.png') }}" alt="Tamago Nigiri">
+                        <h1>Tamago Nigiri</h1>
+                        <p>Sweet Japanese omelet placed on rice, often wrapped with a strip of nori (seaweed).</p>
+                        <p><strong>Popular Toppings:</strong> Nori, Soy Sauce</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Sashimi -->
+                    <div class="burger-card">
+                        <img src="{{ asset('sushiimgs/sushi6.png') }}" alt="Sashimi">
+                        <h1>Sashimi</h1>
+                        <p>Thin slices of raw fish or seafood, served without rice.</p>
+                        <p><strong>Popular Toppings:</strong> Wasabi, Soy Sauce</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Maki Sushi -->
+                    <div class="burger-card">
+                        <img src="{{ asset('sushiimgs/sushi7.png') }}" alt="Maki Sushi">
+                        <h1>Maki Sushi</h1>
+                        <p>Rice and fish or vegetables rolled in nori (seaweed) and cut into bite-sized pieces.</p>
+                        <p><strong>Popular Toppings:</strong> Soy Sauce, Pickled Ginger</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Uramaki -->
+                    <div class="burger-card">
+                        <img src="{{ asset('sushiimgs/sushi8.png') }}" alt="Uramaki">
+                        <h1>Uramaki</h1>
+                        <p>Inside-out sushi roll, with rice on the outside and nori wrapping the fillings.</p>
+                        <p><strong>Popular Toppings:</strong> Sesame Seeds, Soy Sauce</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Temaki -->
+                    <div class="burger-card">
+                        <img src="{{ asset('sushiimgs/sushi9.png') }}" alt="Temaki">
+                        <h1>Temaki</h1>
+                        <p>Hand-rolled cone-shaped sushi filled with rice, fish, and vegetables.</p>
+                        <p><strong>Popular Toppings:</strong> Soy Sauce, Pickled Ginger</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Inari Sushi -->
+                    <div class="burger-card">
+                        <img src="{{ asset('sushiimgs/sushi10.png') }}" alt="Inari Sushi">
+                        <h1>Inari Sushi</h1>
+                        <p>Sweet tofu pockets filled with vinegared rice.</p>
+                        <p><strong>Popular Toppings:</strong> Sesame Seeds, Soy Sauce</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Chirashi -->
+                    <div class="burger-card">
+                        <img src="{{ asset('sushiimgs/sushi11.png') }}" alt="Chirashi">
+                        <h1>Chirashi</h1>
+                        <p>A bowl of sushi rice topped with various slices of sashimi and garnishes.</p>
+                        <p><strong>Popular Toppings:</strong> Soy Sauce, Wasabi</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+
+        <div class="cntMenu" id="cntPasta">
+            <div class="titleType">
+                <img src="{{ asset('pastaimgs/pastalogo.png') }}" alt="">
+                <h1>Pasta </h1>
+            </div>
+            <div class="cntListFood">
+                <section id="pasta-types">
+                    <!-- Spaghetti -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pastaimgs/pasta1.png') }}" alt="Spaghetti">
+                        <h1>Spaghetti</h1>
+                        <p>Thin, long, cylindrical pasta, often served with tomato-based sauces like marinara or
+                            meatballs.</p>
+                        <p><strong>Popular Sauces:</strong> Marinara, Meat Sauce</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Penne -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pastaimgs/pasta2.png') }}" alt="Penne">
+                        <h1>Penne</h1>
+                        <p>Short, tube-shaped pasta with diagonal cuts at both ends, pairs well with thick, creamy
+                            sauces.</p>
+                        <p><strong>Popular Sauces:</strong> Alfredo, Vodka Sauce</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Fettuccine -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pastaimgs/pasta3.png') }}" alt="Fettuccine">
+                        <h1>Fettuccine</h1>
+                        <p>Flat, thick noodles, typically served with rich, creamy sauces like Alfredo or Bolognese.</p>
+                        <p><strong>Popular Sauces:</strong> Alfredo, Bolognese</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Lasagna -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pastaimgs/pasta4.png') }}" alt="Lasagna">
+                        <h1>Lasagna</h1>
+                        <p>Wide, flat pasta sheets used to layer with sauce, cheese, and meat in a baked casserole.</p>
+                        <p><strong>Popular Sauces:</strong> Marinara, Bechamel</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Fusilli -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pastaimgs/pasta5.png') }}" alt="Fusilli">
+                        <h1>Fusilli</h1>
+                        <p>Spiral-shaped pasta that holds onto sauces, perfect for both tomato-based and pesto sauces.
+                        </p>
+                        <p><strong>Popular Sauces:</strong> Pesto, Tomato Sauce</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Ravioli -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pastaimgs/pasta6.png') }}" alt="Ravioli">
+                        <h1>Ravioli</h1>
+                        <p>Square or circular pasta pockets filled with cheese, meat, or vegetables, served with
+                            marinara or butter.</p>
+                        <p><strong>Popular Sauces:</strong> Marinara, Butter Sauce</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Linguine -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pastaimgs/pasta7.png') }}" alt="Linguine">
+                        <h1>Linguine</h1>
+                        <p>Long, flat pasta similar to spaghetti but thicker, often paired with seafood or clam sauces.
+                        </p>
+                        <p><strong>Popular Sauces:</strong> Clam Sauce, Pesto</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Macaroni -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pastaimgs/pasta8.png') }}" alt="Macaroni">
+                        <h1>Macaroni</h1>
+                        <p>Small, curved tube pasta, usually used in dishes like macaroni and cheese or pasta salads.
+                        </p>
+                        <p><strong>Popular Sauces:</strong> Cheese Sauce, Creamy Sauce</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Tortellini -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pastaimgs/pasta9.png') }}" alt="Tortellini">
+                        <h1>Tortellini</h1>
+                        <p>Small, ring-shaped pasta, usually filled with cheese or meat, and served in broth or with
+                            cream sauces.</p>
+                        <p><strong>Popular Sauces:</strong> Cream Sauce, Marinara</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Rigatoni -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pastaimgs/pasta10.png') }}" alt="Rigatoni">
+                        <h1>Rigatoni</h1>
+                        <p>Large, ridged, tube-shaped pasta that works well with hearty meat sauces.</p>
+                        <p><strong>Popular Sauces:</strong> Meat Sauce, Tomato Sauce</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Pappardelle -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pastaimgs/pasta11.png') }}" alt="Pappardelle">
+                        <h1>Pappardelle</h1>
+                        <p>Broad, flat pasta, often served with rich meat-based sauces like ragu.</p>
+                        <p><strong>Popular Sauces:</strong> Ragu, Meat Sauce</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Capellini -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pastaimgs/pasta12.png') }}" alt="Capellini">
+                        <h1>Capellini</h1>
+                        <p>Very thin, long pasta also known as angel hair, typically served with light sauces like olive
+                            oil or butter.</p>
+                        <p><strong>Popular Sauces:</strong> Olive Oil, Butter Sauce</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Orzo -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pastaimgs/pasta13.png') }}" alt="Orzo">
+                        <h1>Orzo</h1>
+                        <p>Small, rice-shaped pasta often used in soups or salads.</p>
+                        <p><strong>Popular Dishes:</strong> Soups, Salads</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Ziti -->
+                    <div class="burger-card">
+                        <img src="{{ asset('pastaimgs/pasta15.png') }}" alt="Ziti">
+                        <h1>Ziti</h1>
+                        <p>Medium-sized tube-shaped pasta, typically baked in casseroles with cheese and tomato sauce.
+                        </p>
+                        <p><strong>Popular Dishes:</strong> Baked Ziti, Cheese Casserole</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+
+
+        <div class="cntMenu" id="cntchk">
+            <div class="titleType">
+                <img src="{{ asset('chkimgs/chklogo.png') }}" alt="">
+                <h1>Fried Chicken </h1>
+            </div>
+            <div class="cntListFood">
+                <section id="fried-chicken-types">
+                    <!-- Southern Fried Chicken -->
+                    <div class="burger-card">
+                        <img src="{{ asset('chkimgs/chk1.png') }}" alt="Southern Fried Chicken">
+                        <h1>Southern Fried Chicken</h1>
+                        <p>Traditional fried chicken, seasoned with a blend of spices, then coated in flour and fried
+                            until crispy.</p>
+                        <p><strong>Popular Toppings:</strong> Hot Sauce, Honey</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Buttermilk Fried Chicken -->
+                    <div class="burger-card">
+                        <img src="{{ asset('chkimgs/chk2.png') }}" alt="Buttermilk Fried Chicken">
+                        <h1>Buttermilk Fried Chicken</h1>
+                        <p>Chicken marinated in buttermilk for a tender texture, then fried with a crunchy coating.</p>
+                        <p><strong>Popular Toppings:</strong> Honey, Ranch Dressing</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Korean Fried Chicken -->
+                    <div class="burger-card">
+                        <img src="{{ asset('chkimgs/chk3.png') }}" alt="Korean Fried Chicken">
+                        <h1>Korean Fried Chicken</h1>
+                        <p>Double-fried for extra crispiness, often coated with a sweet and spicy gochujang sauce.</p>
+                        <p><strong>Popular Toppings:</strong> Gochujang Sauce, Sesame Seeds</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Popcorn Chicken -->
+                    <div class="burger-card">
+                        <img src="{{ asset('chkimgs/chk4.png') }}" alt="Popcorn Chicken">
+                        <h1>Popcorn Chicken</h1>
+                        <p>Small, bite-sized pieces of fried chicken, usually seasoned and breaded for a crispy texture.
+                        </p>
+                        <p><strong>Popular Toppings:</strong> Barbecue Sauce, Ketchup</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Hot Chicken -->
+                    <div class="burger-card">
+                        <img src="{{ asset('chkimgs/chk5.png') }}" alt="Hot Chicken">
+                        <h1>Hot Chicken</h1>
+                        <p>Spicy fried chicken, typically drenched in a hot sauce made with cayenne pepper and served
+                            with pickles.</p>
+                        <p><strong>Popular Toppings:</strong> Pickles, Ranch</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Buffalo Wings -->
+                    <div class="burger-card">
+                        <img src="{{ asset('chkimgs/chk6.png') }}" alt="Buffalo Wings">
+                        <h1>Buffalo Wings</h1>
+                        <p>Chicken wings fried and coated in a tangy buffalo sauce, usually served with blue cheese or
+                            ranch.</p>
+                        <p><strong>Popular Toppings:</strong> Blue Cheese, Celery Sticks</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Chicken Tenders -->
+                    <div class="burger-card">
+                        <img src="{{ asset('chkimgs/chk7.png') }}" alt="Chicken Tenders">
+                        <h1>Chicken Tenders</h1>
+                        <p>Strips of boneless chicken, breaded and fried, often served with dipping sauces like honey
+                            mustard.</p>
+                        <p><strong>Popular Toppings:</strong> Honey Mustard, Ketchup</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Jamaican Fried Chicken -->
+                    <div class="burger-card">
+                        <img src="{{ asset('chkimgs/chk8.png') }}" alt="Jamaican Fried Chicken">
+                        <h1>Jamaican Fried Chicken</h1>
+                        <p>Fried chicken with a spicy, jerk-inspired seasoning for a flavorful kick.</p>
+                        <p><strong>Popular Toppings:</strong> Jerk Sauce, Pineapple</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+                </section>
+
+            </div>
+
+        </div>
+        <div class="cntMenu" id="cntDum">
+            <div class="titleType">
+                <img src="{{ asset('dumimgs/dumlogo.png') }}" alt="">
+                <h1>Fried Chicken </h1>
+            </div>
+            <div class="cntListFood">
+                <section id="dumpling-types">
+                    <!-- Jiaozi -->
+                    <div class="burger-card">
+                        <img src="{{ asset('dumimgs/dum1.png') }}" alt="Jiaozi">
+                        <h1>Jiaozi (Chinese Dumplings)</h1>
+                        <p>Popular Chinese dumplings filled with ground meat and vegetables, either boiled, steamed, or
+                            pan-fried.</p>
+                        <p><strong>Popular Toppings:</strong> Soy Sauce, Vinegar</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Gyoza -->
+                    <div class="burger-card">
+                        <img src="{{ asset('dumimgs/dum2.png') }}" alt="Gyoza">
+                        <h1>Gyoza (Japanese Dumplings)</h1>
+                        <p>Japanese version of Chinese dumplings, pan-fried with pork, cabbage, garlic, and ginger
+                            filling.</p>
+                        <p><strong>Popular Toppings:</strong> Soy Sauce, Chili Oil</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Momo -->
+                    <div class="burger-card">
+                        <img src="{{ asset('dumimgs/dum3.png') }}" alt="Momo">
+                        <h1>Momo (Nepalese/Tibetan Dumplings)</h1>
+                        <p>Steamed or fried dumplings filled with ground meat or vegetables, served with a spicy dipping
+                            sauce.</p>
+                        <p><strong>Popular Toppings:</strong> Spicy Tomato Sauce, Chili Oil</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Pierogi -->
+                    <div class="burger-card">
+                        <img src="{{ asset('dumimgs/dum4.png') }}" alt="Pierogi">
+                        <h1>Pierogi (Polish Dumplings)</h1>
+                        <p>Eastern European dumplings filled with mashed potatoes, cheese, sauerkraut, or meat, boiled
+                            and sometimes fried.</p>
+                        <p><strong>Popular Toppings:</strong> Sour Cream, Fried Onions</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Samosa -->
+                    <div class="burger-card">
+                        <img src="{{ asset('dumimgs/dum5.png') }}" alt="Samosa">
+                        <h1>Samosa (Indian Dumplings)</h1>
+                        <p>Deep-fried pastry filled with spiced potatoes, peas, and sometimes meat, popular in Indian
+                            cuisine.</p>
+                        <p><strong>Popular Toppings:</strong> Tamarind Sauce, Chutney</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Khinkali -->
+                    <div class="burger-card">
+                        <img src="{{ asset('dumimgs/dum6.png') }}" alt="Khinkali">
+                        <h1>Khinkali (Georgian Dumplings)</h1>
+                        <p>Georgian dumplings filled with spiced meat and broth, traditionally boiled.</p>
+                        <p><strong>Popular Toppings:</strong> Black Pepper</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Mandu -->
+                    <div class="burger-card">
+                        <img src="{{ asset('dumimgs/dum7.png') }}" alt="Mandu">
+                        <h1>Mandu (Korean Dumplings)</h1>
+                        <p>Korean dumplings, either steamed or fried, filled with a mixture of ground pork, tofu, and
+                            vegetables.</p>
+                        <p><strong>Popular Toppings:</strong> Soy Sauce, Kimchi</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Ravioli -->
+                    <div class="burger-card">
+                        <img src="{{ asset('dumimgs/dum8.png') }}" alt="Ravioli">
+                        <h1>Ravioli (Italian Dumplings)</h1>
+                        <p>Italian pasta dumplings, filled with ricotta, spinach, or meat, served with marinara or pesto
+                            sauce.</p>
+                        <p><strong>Popular Toppings:</strong> Parmesan Cheese, Olive Oil</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Empanadas -->
+                    <div class="burger-card">
+                        <img src="{{ asset('dumimgs/dum9.png') }}" alt="Empanadas">
+                        <h1>Empanadas (Latin American Dumplings)</h1>
+                        <p>Fried or baked pastry filled with seasoned meat, cheese, or vegetables, popular in Latin
+                            America.</p>
+                        <p><strong>Popular Toppings:</strong> Salsa, Chimichurri</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Pelmeni -->
+                    <div class="burger-card">
+                        <img src="{{ asset('dumimgs/dum10.png') }}" alt="Pelmeni">
+                        <h1>Pelmeni (Russian Dumplings)</h1>
+                        <p>Russian dumplings filled with minced meat and onions, boiled and served with sour cream.</p>
+                        <p><strong>Popular Toppings:</strong> Sour Cream, Dill</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Baozi -->
+                    <div class="burger-card">
+                        <img src="{{ asset('dumimgs/dum11.png') }}" alt="Baozi">
+                        <h1>Baozi (Chinese Steamed Buns)</h1>
+                        <p>Soft, steamed buns filled with pork, vegetables, or sweet fillings, commonly sold as street
+                            food.</p>
+                        <p><strong>Popular Toppings:</strong> Hoisin Sauce, Sesame Seeds</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <!-- Xiaolongbao -->
+                    <div class="burger-card">
+                        <img src="{{ asset('dumimgs/dum12.png') }}" alt="Xiaolongbao">
+                        <h1>Xiaolongbao (Soup Dumplings)</h1>
+                        <p>Steamed dumplings filled with broth and minced meat, famous for their delicate dough and soup
+                            inside.</p>
+                        <p><strong>Popular Toppings:</strong> Vinegar, Soy Sauce</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+                </section>
+
+            </div>
+
+        </div>
+        <div class="cntMenu">
+            <div class="cntListFood">
+                <section id="fruit-juices">
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus1.png') }}" alt="">
+                        <h1>Orange Juice</h1>
+
+                        <p>Rich in vitamin C, it's one of the most popular breakfast drinks.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus2.png') }}" alt="">
+                        <h1>Apple Juice</h1>
+
+                        <p>A sweet and light juice enjoyed by both children and adults.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus3.png') }}" alt="">
+                        <h1>Grape Juice</h1>
+
+                        <p>Made from grapes, available in red, white, or purple varieties.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus4.png') }}" alt="">
+                        <h1>Pineapple Juice</h1>
+
+                        <p>Known for its tropical taste and refreshing qualities.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus5.png') }}" alt="">
+                        <h1>Mango Juice</h1>
+
+                        <p>A sweet and thick juice made from ripe mangoes, common in tropical regions.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus6.png') }}" alt="">
+                        <h1>Pomegranate Juice</h1>
+
+                        <p>A tart and slightly sweet juice, full of antioxidants.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus7.png') }}" alt="">
+                        <h1>Cranberry Juice</h1>
+
+                        <p>Known for its tart flavor and health benefits, especially for urinary tract health.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus9.png') }}" alt="">
+                        <h1>Watermelon Juice</h1>
+
+                        <p>Light and refreshing, popular in summer.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="burger-card">
+                        <img src="{{ asset('jusimgs/jus10.png') }}" alt="">
+                        <h1>Strawberry Juice</h1>
+
+                        <p>Sweet and slightly tart, often mixed with other juices.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus11.png') }}" alt="">
+                        <h1>Guava Juice</h1>
+
+                        <p>A tropical juice with a unique, sweet, and slightly tangy flavor.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus12.png') }}" alt="">
+                        <h1>Peach Juice</h1>
+
+                        <p>A sweet juice with a smooth, soft flavor.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus13.png') }}" alt="">
+                        <h1>Cherry Juice</h1>
+
+                        <p>A tart and sweet juice often linked to anti-inflammatory benefits.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus14.png') }}" alt="">
+                        <h1>Banana Juice</h1>
+                        <p>Thick and creamy, often mixed with other fruits like strawberries or oranges.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+
+        <div class="cntMenu">
+
+            <div class="cntListFood">
+                <section id="vegetable-juices">
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus21.png') }}" alt="">
+                        <h1>Carrot Juice</h1>
+
+                        <p>Rich in beta-carotene and vitamin A, promotes eye health.</p>
+                        <button>
+                            <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus22.png') }}" alt="">
+                        <h1>Tomato Juice</h1>
+
+                        <p>A savory juice packed with antioxidants.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus23.png') }}" alt="">
+                        <h1>Beet Juice</h1>
+
+                        <p>A nutrient-rich juice known for improving blood flow.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus24.png') }}" alt="">
+                        <h1>Cucumber Juice</h1>
+
+                        <p>Light and hydrating, often mixed with other juices.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus25.png') }}" alt="">
+                        <h1>Celery Juice</h1>
+
+                        <p>Popular for its detoxifying benefits, celery juice is light and refreshing.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus26.png') }}" alt="">
+                        <h1>Spinach Juice</h1>
+
+                        <p>Packed with nutrients like iron, often mixed with other juices for a green juice blend.</p>
+                        <button>
+                            <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus27.png') }}" alt="">
+                        <h1>Kale Juice</h1>
+
+                        <p>: Another leafy green that’s full of vitamins and often blended with other vegetables or
+                            fruits.</p>
+                        <button>
+                            <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus28.png') }}" alt="">
+                        <h1>Ginger Juice</h1>
+
+                        <p> Commonly used in small amounts for its strong, spicy flavor, and its digestive benefits.</p>
+                        <button>
+                            <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="cntMenu">
+
+            <div class="cntListFood">
+                <section id="citrus-juices">
+                    <div class="burger-card">
+                        <img src="{{ asset('jusimgs/jus8.png') }}" alt="">
+                        <h1>Lemon Juice</h1>
+
+                        <p>A sour juice rich in vitamin C, often used in lemonade.</p>
+                        <button>
+                            <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="burger-card">
+                        <img src="{{ asset('jusimgs/jus42.png') }}" alt="">
+                        <h1>Lime Juice</h1>
+
+                        <p>More tart than lemon juice, often used in cocktails.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="burger-card">
+                        <img src="{{ asset('jusimgs/jus43.png') }}" alt="">
+                        <h1>Grapefruit Juice</h1>
+
+                        <p>A bitter and tart juice, enjoyed for its health benefits.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="burger-card">
+                        <img src="{{ asset('jusimgs/jus44.png') }}" alt="">
+                        <h1>Tangerine Juice</h1>
+
+                        <p> Sweeter and less tangy than orange juice, but still refreshing.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+
+        <div class="cntMenu">
+            <div class="cntListFood">
+                <section id="tropical-juices">
+
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus51.png') }}" alt="">
+                        <h1>Coconut Water</h1>
+                        <p>A light and refreshing tropical drink, full of electrolytes.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus52.png') }}" alt="">
+                        <h1>Passion Fruit Juice</h1>
+
+                        <p>A tangy and slightly sweet juice, perfect for tropical drinks.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus53.png') }}" alt="">
+                        <h1>Papaya Juice</h1>
+
+                        <p>A sweet and creamy juice with a unique tropical flavor.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus54.png') }}" alt="">
+                        <h1>Lychee Juice </h1>
+                        <p> A fragrant, sweet juice made from the tropical lychee fruit.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+
+        <div class="cntMenu">
+            <div class="cntListFood">
+                <section id="exotic-juices">
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus61.png') }}" alt="">
+                        <h1>Açaí Juice</h1>
+
+                        <p>Known for its high antioxidant content, made from the açaí berry.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus62.png') }}" alt="">
+                        <h1>Dragon Fruit Juice</h1>
+
+                        <p>A mildly sweet and refreshing juice, made from dragon fruit.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus63.png') }}" alt="">
+                        <h1>Goji Berry Juice</h1>
+
+                        <p>Known for its antioxidants and health benefits.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+        <div class="cntMenu">
+            <div class="cntListFood">
+                <section id="exotic-juices">
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus31.png') }}" alt="">
+                        <h1>Apple-Carrot Juice</h1>
+                        <p> A sweet and nutritious blend.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus32.png') }}" alt="">
+                        <h1>Orange-Carrot Juice</h1>
+                        <p> Combines the sweetness of oranges with the earthiness of carrots.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                    <div class="jus-card">
+                        <img src="{{ asset('jusimgs/jus33.png') }}" alt="">
+                        <h1>Kale-Apple-Cucumber Juice</h1>
+                        <p> A refreshing and healthy green juice.</p>
+                        <button> <img src="{{ asset('icones/fast-delivery.png') }}" alt="">
+                            <p>Order Now</p>
+                        </button>
+                    </div>
+
+                </section>
+            </div>
+        </div>

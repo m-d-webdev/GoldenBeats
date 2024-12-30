@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+
+    padding: 0;
+
+
+    box-sizing: border-box;
+}
+
+
+
+
+/* ----------------- */
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    min-height: 800px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.cntSliderPl{
+    width: 100%;
+}
+.cntAds {
+    max-width: 400px;
+    width: 20%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    align-items: start;
+    background-color: var(--main-color-light);
+    filter: drop-shadow(0 0 10px var(--filterColor));
+}
+
+.offerElem img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    min-height: 450px;
+    border-radius: 8px;
+}
+
+.offerElem {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    top: 50px;
+    animation-duration: .2s;
+    left: 0;
+    display: none;
+}
+
+.cntOffres h1 {
+    margin-bottom: 15px;
+    align-self: flex-start;
+}
+
+.cntOffres {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+
+    align-items: center;
+    border-radius: 10px;
+}
+
+.btnViewMoreOffers:hover {
+    width: 70%;
+    background-color: var(--main-color-dark);
+}
+
+.btnViewMoreOffers {
+    bottom: 10px;
+    margin: auto;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-top: 15PX;
+    transition: .2s;
+    width: 80%;
+    padding: 5px;
+    background-color: rgb(255, 160, 83);
+}
+
+
+
+.ResturantElem img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    min-height: 350px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.ResturantElem span p{
+    font-weight: 600;
+    font-size: 15px !important;
+    margin-left: 10px;
+}   
+.ResturantElem button{
+    width: 80%;
+    cursor: pointer;
+    margin-top: 15px;
+    color: #fff;
+}
+.ResturantElem button:hover {
+    width: 70%;
+    background-color: var(--main-color-dark);
+}
+.ResturantElem span{
+    width: 100%;
+    display: flex;
+    font-size: 13px !important;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 5px;
+
+}
+.ResturantElem h3{
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+.ResturantElem {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    animation-duration: .2s;
+    left: 0;
+    display: none;
+}
+
+.cntOURRestaurant h1 {
+    margin-bottom: 15px;
+    align-self: flex-start;
+}
+
+.cntOURRestaurant {
+    width: 100%;
+    height: 900px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+
+/* ------------------------------- */
+
+.cntChoosesServeces {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--main-color-light);
+    justify-content: space-evenly;
+    filter: drop-shadow(0 0 10px var(--filterColor));
+    align-items: center;
+    margin-top: 30px;
+    position: relative;
+    padding-top: 60px;
+}
+
+.descServeces {
+    position: absolute;
+    top: 10px;
+    margin: auto;
+}
+
+.WelcomingText {
+    font-size: 18px !important;
+    color: var(--textcolor);
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+.DescIntro {
+    text-align: center;
+    margin-bottom: 15px;
+    color: var(--textcolor);
+    max-width: 800px;
+    margin: auto;
+}
+
+.chooseService p {
+    z-index: 2;
+    position: relative;
+    color: #fff;
+
+}
+
+.chooseService h1 {
+    font-size: 20px !important;
+    margin-bottom: 15px;
+    z-index: 2;
+    position: relative;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.chooseService:hover {
+    transform: scale(5);
+    transition: 1s;
+}
+
+.chooseService img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.chooseService::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50%;
+    background: linear-gradient(180deg,
+            rgba(0, 0, 0, 0) 0%,
+            rgb(0, 0, 0) 100%);
+    ;
+    z-index: 1;
+    border-radius: 8px;
+}
+
+.chooseService {
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    background-color: var(--main-color-light);
+    filter: drop-shadow(0 0 5px var(--filterColor));
+    margin: 5px;
+    margin-bottom: 20px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-end;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+    /* animation-duration: .3s; */
+    transition: .2s !important;
+    visibility: hidden;
+}
+
+.effectChoosed:hover {
+    transition: .2s !important;
+    transform: scale(1.05);
+}
+
+.effectChoosed {
+    animation: asdfsdf .4s ease-in-out;
+    transition: .2s !important;
+    visibility: visible;
+}
+
+@keyframes asdfsdf {
+    0% {
+        transform: scale(0);
+    }
+}
+
+.bntCheckOutService{
+    margin-top: 10px;
+    width: 150px;
+    z-index: 3;
+    color: #fff;
+    font-weight: 600;
+
+}
+
+/* -================================================= */
+
+.aboutUsPrivay {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    cursor: pointer;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.aboutUs p {
+    margin-top: 7px;
+    color: var(--textcolor);
+
+}
+
+.aboutUs h1 {
+    font-size: 18px !important;
+    margin-bottom: 10px;
+    color: var(--textcolor);
+
+}
+
+.aboutUs {
+    padding: 10px;
+    background-color: var(--main-color-light);
+    filter: drop-shadow(0 0 5px var(--filterColor));
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#privacy-policy ul {
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+#privacy-policy p {
+    margin-top: 7px;
+    color: var(--textcolor);
+
+    margin-left: 15px;
+}
+
+#privacy-policy h2 {
+    font-size: 16px !important;
+    margin-bottom: 7px;
+    margin-left: 8px;
+    color: var(--textcolor);
+
+}
+
+#privacy-policy h1 {
+    font-size: 18px !important;
+    margin-bottom: 10px;
+    color: var(--textcolor);
+
+
+}
+
+#privacy-policy {
+    padding: 10px;
+    background-color: var(--main-color-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    filter: drop-shadow(0 0 5px var(--filterColor));
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.welcomingDev video {
+    width: 60%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.welcomingDev {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addAnimatioToVideo {
+    animation: psadfuasd .6s ease-in-out;
+}
+
+@keyframes psadfuasd {
+
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+}
+
+.displayFlex {
+    display: flex;
+}

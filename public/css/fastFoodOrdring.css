@@ -1,0 +1,1011 @@
+.containerMaster1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.FAST_ORDRING_CONTAINER {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 35px;
+    position: relative;
+    /* max-width: 1800px; */
+}
+
+.com-ifh-sdsd a:hover {
+    border: solid 1px var(--main-color-dark);
+}
+
+.com-ifh-sdsd a {
+    border: solid 1px transparent;
+    display: flex;
+    border-radius: 20px;
+    transition: .2s;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    width: 180px;
+
+}
+
+.com-ifh-sdsd {
+    margin-top: 10px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: end;
+    position: sticky;
+    z-index: 2;
+    padding: 4px;
+    border-radius: 5px;
+    top: 0;
+    background-color: var(--main-color-light);
+}
+
+.totalePriceMeal h1 {
+    color: var(--main-color);
+    margin: 0 5px;
+}
+
+.totalePriceMeal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    border: solid 1px var(--main-color);
+}
+
+.btnGetMeal svg {
+    fill: #fff;
+    margin-right: 10px;
+}
+
+.btnGetMeal {
+    background-color: var(--main-color);
+    padding: 5px;
+    width: 150px;
+    border-radius: 20px;
+    margin-right: 15px;
+    color: #fff;
+}
+
+/* -------------- */
+
+
+.cntCombos .burger-card{
+    width:47%;
+    max-width: 600px;
+    min-width: 400px;
+    margin: 0 ;
+    margin-bottom: 50px;
+}
+.cntCombos {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: var(--main-color-light);
+    padding: 5px;
+}
+
+.cntCombos  .burger-card img {
+    max-width: 350px;
+    max-height:350px;
+    min-height:150px;
+}
+
+.cntFRUITS  .burger-card img {
+    max-width: 300px;
+    max-height:300px;
+    min-height:150px;
+}
+.cntFRUITS .burger-card{
+    width:31%;
+    min-width: 400px;
+    margin: 0 ;
+    margin-bottom: 50px;
+}
+.cntFRUITS {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    background-color: var(--main-color-light);
+    padding: 10px;
+}
+
+.cntCompRow {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.cntCombo button svg {
+    fill: #fff;
+    width: 25px;
+    height: 25px;
+}
+
+.cntCombo img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+
+.cntCombo button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    width: 150px;
+    margin: auto;
+    color: #FFF;
+    bottom: 10px
+}
+
+.cntCombo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    position: relative;
+    margin-right: 20px;
+    background-color: var(--main-color-light);
+    filter: drop-shadow(0 0 5px var(--filterColor));
+    border-radius: 10px;
+    z-index: 1;
+    width: 33%;
+}
+
+
+/* --------------------------- */
+.container1 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--main-color-light);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.welcogingText {
+    margin-top: 10px;
+
+}
+
+.menuChooses a h1 {
+    text-align: center;
+}
+
+.menuChooses a svg {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    stroke: var(--textcolor);
+    fill: none;
+}
+
+.menuChooses a:nth-child(1) svg {
+    fill: var(--textcolor);
+}
+
+.menuChooses a:nth-child(2) svg {
+    fill: var(--textcolor);
+}
+
+.menuChooses a:hover:after {
+    width: 100%;
+    height: 100%;
+}
+
+.menuChooses a:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 0;
+    transition: .2s;
+    height: 0;
+    background-color: var(--main-color);
+    border-radius: 10px;
+}
+
+.menuChooses a:first-child:hover svg {
+    fill: #fff;
+}
+
+.menuChooses a:nth-child(2):hover svg {
+    fill: #fff;
+}
+.menuChooses a:nth-child(5):hover svg {
+    fill: #fff;
+}
+
+.menuChooses a .icodesdfasdf{
+    fill: var(--main-color-dark);
+}
+.menuChooses a:hover svg,
+.menuChooses a:hover h1 {
+    color: #fff;
+    stroke: #fff;
+}
+
+.menuChooses a:active {
+    transform: scale(.9);
+}
+
+.menuChooses a.active h1,
+.menuChooses a.active svg {
+    color: #fff;
+    stroke: #fff !important;
+}
+
+.menuChooses a.active:nth-child(2) svg,
+.menuChooses a.active:first-child svg {
+    fill: #fff;
+}
+
+.menuChooses a.active {
+    background-color: var(--main-color);
+}
+
+.menuChooses a {
+    position: relative;
+    transition: .2s;
+    cursor: pointer;
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.cntAlertNew {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    display: none;
+    top: 5px;
+    right: 5px;
+}
+
+.cntAlertNew svg {
+    width: 28px;
+    margin-bottom: 2px;
+    height: 28px;
+    fill: #ff0000;
+}
+
+
+
+.cntListMeal span h3 {
+    /* margin-top: 10px; */
+    color: rgb(243, 136, 14);
+    font-weight: 600;
+}
+
+.cntListMeal span h2 {
+    /* margin-top: 10px; */
+    font-weight: 600;
+}
+
+.cntListMeal span .cntComadInfo button {
+    padding: 2px;
+    font-size: 13px !important;
+    background-color: black;
+    color: #FFF;
+    margin-top: 5px;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.cntListMeal span .cntComadInfo button:last-child {
+    background-color: red;
+    color: #FFF;
+    margin-top: 5px;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.cntListMeal span .cntComadInfo {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cntListMeal span:hover {
+    transform: scale(1.3);
+    z-index: 10;
+}
+
+.cntListMeal span {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12px;
+    transition: .2s;
+    background-color: var(--main-color-light);
+    filter: drop-shadow(0 0 10px var(--filterColor));
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.cntListMeal span img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 10px;
+}
+
+.cntListMeal .cntListMealName strong {
+    font-weight: 600;
+    color: var(--main-color);
+    margin: 0 7px;
+    font-size: 17px !important;
+
+}
+
+.cntListMeal .cntListMealName:hover {
+    transform: none;
+}
+
+.cntListMeal .cntListMealName {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -30px;
+    left: 10px;
+    margin: 0;
+    filter: none;
+}
+
+.cntListMeal .cntControllerList button {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    color: #fff;
+    margin-left: 8px;
+
+}
+
+.cntListMeal .cntControllerList h1 {
+    font-size: 18px !important;
+    margin-left: 8px;
+}
+
+.cntListMeal .cntControllerList {
+    position: absolute;
+    right: 10px;
+    top: -25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+}
+
+.cntListMeal {
+    /* border: solid 1px var(--border-focus); */
+    background-color: var(--main-color3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+    max-width: 1500px;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    padding-top: 30px;
+    width: 100%;
+    /* max-height: 500px; */
+    position: relative;
+    /* overflow: auto; */
+}
+
+.titleDish {
+    position: absolute;
+    top: 9px;
+    left: 15px;
+}
+
+.menuChooses.active{
+    position: absolute;
+    /* transform: translateX(-200px); */
+   left: -200px;
+}
+.menuChooses {
+    transform: translateX(0px);
+    margin-left: 0px;
+    width: 10%;
+    max-width: 130px;
+    display: flex;
+    transition: .2s;
+    justify-content: start;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    top: 200px;
+    left: 0;
+    height: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    z-index: 10;
+    background-color: var(--main-color-light);
+    filter: drop-shadow(0 0 5px var(--filterColor));
+}
+
+
+
+.cntMenu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 20px; */
+    position: relative;
+    padding: 10px;
+}
+
+
+.cntListFood {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    position: relative;
+    overflow: auto;
+    max-width: 100%;
+    height: 420px;
+}
+
+.button_scroll_right svg {
+    width: 30px;
+    height: 30px;
+}
+
+.button_scroll_right {
+    position: absolute;
+    right: 10px;
+    justify-self: center;
+    cursor: pointer;
+    bottom: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+    display: none;
+    color: #ffffff;
+    opacity: 0;
+}
+
+.button_scroll_Left svg {
+    width: 30px;
+    height: 30px;
+}
+
+.button_scroll_Left {
+    position: absolute;
+    left: 10px;
+    justify-self: center;
+    bottom: 50%;
+    opacity: 0;
+    width: 50px;
+    height: 50px;
+    transition: .2s;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #ffffff;
+    display: none;
+}
+
+.FatherOfScrollButton:hover .button_scroll_Left,
+.FatherOfScrollButton:hover .button_scroll_right {
+    opacity: .5;
+}
+
+.FatherOfScrollButton .button_scroll_right:hover {
+    opacity: 1;
+}
+
+.FatherOfScrollButton .button_scroll_Left:hover {
+    opacity: 1;
+}
+
+.cntListFood::-webkit-scrollbar {
+    display: none;
+}
+
+.cntListFood section {
+    /* display: none; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+/* --------------- */
+
+.burger-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 400px;
+    border-radius: 10px;
+    width: 650px;
+    min-width: 650px;
+    position: relative;
+    margin-right: 20px;
+    background-color: var(--main-color-light);
+    filter: drop-shadow(0 0 5px var(--filterColor));
+    padding: 10px;
+}
+
+.activeCard {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    /* margin-top: 10px; */
+    height: 100%;
+    border-radius: 10px;
+    min-width: 650px;
+    margin-right: 20px;
+    /* background-color: var(--main-color-active-card); */
+    filter: drop-shadow(0 0 5px var(--filterColor));
+    padding: 10px;
+}
+
+.cntArticleInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    align-items: flex-start;
+    position: relative;
+    width: 30%;
+    max-width: 30%;
+}
+
+.burger-card img {
+    max-width: 400px;
+    max-height: 400px;
+    min-height: 300px;
+    margin-bottom: 10px;
+    /* object-fit: cover; */
+    /* object-position: center; */
+}
+
+.burger-card strong {
+    margin-right: 8px;
+}
+
+.burger-card p {
+    font-size: 14px ;
+}
+
+.burger-card h1 {
+    color: rgb(255, 131, 29);
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 18px !important;
+}
+
+
+
+.burger-card .btnOrder p {
+    color: #fff;
+
+}
+
+.burger-card .btnOrder svg{
+    fill: #fff;
+}
+.burger-card .btnOrder {
+    margin: auto;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+    width: 160px;
+    padding: 8px 17px;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(254, 148, 61);
+}
+
+.burger-card .addTOMeal svg {
+    fill: var(--textcolor-rev);
+    margin-right: 10px;
+}
+
+.burger-card .addTOMeal .loader2 {
+    border: 4px solid var(--main-color-light);
+    width: 25px;
+}
+
+.burger-card .addTOMeal {
+    background-color: var(--main-color-dark);
+}
+
+
+
+
+
+
+.spAlreadyInTHeMeal button svg {
+    fill: #fff;
+    margin-right: 10px;
+}
+
+.spAlreadyInTHeMeal button p {
+    color: #fff;
+}
+
+.spAlreadyInTHeMeal button {
+    color: #fff;
+    padding: 4px 15px;
+    color: var(--textcolor);
+    margin-top: 10px;
+    height: 34px;
+    animation: animatButtsdf .3s ease;
+    width: 200px;
+}
+
+@keyframes animatButtsdf {
+    0%{
+        width: 100px;
+        height: 0;
+        padding: 0;
+    }
+}
+
+.btnAddToDish .loader2 {
+    border: 4px solid var(--main-color-light);
+    width: 25px;
+
+}
+
+.btnDecreaseQu .loader2 {
+    border: 4px solid var(--main-color-light);
+    width: 25px;
+
+}
+
+.btnAddToDish {
+    background-color: green;
+}
+
+.btnDecreaseQu {
+    background-color: rgb(222, 42, 6);
+}
+
+.spAlreadyInTHeMeal p {
+    white-space: nowrap;
+}
+
+.spAlreadyInTHeMeal {
+    display: flex;
+    justify-content: start;
+    position: absolute;
+    bottom:0px;
+    align-items: start;
+    flex-direction: column;
+}
+
+
+
+.price_food svg {
+    margin-right: 10px;
+}
+
+.price_food {
+    margin-top: 15px;
+    display: flex;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: solid 1px var(--gold-color);
+    justify-content: center;
+    align-items: center;
+    font-size: 18px !important;
+
+}
+
+
+
+.cntSetQuantite img {
+    max-width: 70%;
+    margin-right: 10px;
+    max-height: 100% !important;
+}
+
+.btnCancel1 {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: var(--textcolor);
+    transition: .2s;
+}
+
+.cntSetQuantite {
+    position: relative;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+    height: 600px;
+    background-color: var(--main-color-light);
+    border-radius: 10px;
+    padding: 30px;
+    filter: drop-shadow(0 0 10px var(--filterColor));
+    animation-duration: .3s !important;
+    display: none;
+}
+
+.cntInfoChangeQut .MealName {
+    color: rgb(255, 131, 29);
+    font-size: 22px !important;
+}
+
+.cntInfoChangeQut del {
+    margin-left: 5px;
+    font-size: 12px !important;
+}
+
+.cntInfoChangeQut strong {
+    font-size: 22px !important;
+    margin-left: 10px !important;
+    margin-right: 4px !important;
+}
+
+.cntInfoChangeQut .comition {
+    font-size: 16px !important;
+    color: rgb(0, 153, 0);
+    font-weight: 700;
+}
+
+.cntInfoChangeQut {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 40%;
+    height: 80%;
+}
+
+.cntInfoChangeQut #btnAddMealToDish2 p {
+    color: #fff;
+}
+
+.cntInfoChangeQut #btnAddMealToDish2 svg {
+    width: 20px;
+    height: 20px;
+    stroke: none;
+    fill: #fff !important;
+    margin-right: 8px;
+}
+
+.cntInfoChangeQut #btnAddMealToDish2 {
+    width: 200px;
+    background-color: rgb(255, 160, 83);
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.cntInfoChangeQut #btnRemoveFromDish p {
+    color: #fff;
+}
+
+.cntInfoChangeQut #btnRemoveFromDish svg {
+    width: 20px;
+    height: 20px;
+    stroke: none;
+    fill: #fff !important;
+    margin-right: 8px;
+}
+
+.cntInfoChangeQut #btnRemoveFromDish {
+    width: 200px;
+    background-color: rgb(255, 28, 28);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.ChangeQ_cmp button svg {
+    fill: var(--textcolor-rev);
+    width: 25px;
+}
+
+.ChangeQ_cmp button {
+    width: 100px;
+    padding: 5px;
+    background-color: var(--main-color-dark);
+    border-radius: 10px;
+    color: var(--textcolor-rev);
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px !important;
+    margin: 10px 0;
+}
+
+.ChangeQ_cmp h5 {
+    font-size: 25px !important;
+    margin: 10px 0;
+    color: rgb(255, 131, 29);
+    transition: .2s;
+}
+
+.ChangeQ_cmp {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ---------------- */
+.SetMeanlObject .cntInpSetName input:not(:placeholder-shown)+label,
+.SetMeanlObject .cntInpSetName input:focus+label {
+    transform: translateY(-17px);
+    font-size: 12px !important;
+    color: rgb(4, 88, 255);
+}
+
+.SetMeanlObject .cntInpSetName input {
+    width: 100%;
+    padding-top: 25px;
+
+}
+
+.SetMeanlObject .cntInpSetName label {
+    position: absolute;
+    left: 10px;
+}
+
+.SetMeanlObject .cntInpSetName {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.SetMeanlObject #btnSetName {
+    width: 150px;
+    background-color: rgb(17, 116, 255);
+    color: #fff;
+}
+
+.SetMeanlObject {
+    position: relative;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    background-color: var(--main-color-light);
+    border-radius: 10px;
+    padding: 30px;
+    filter: drop-shadow(0 0 10px var(--filterColor));
+    animation-duration: .3s !important;
+    display: none;
+}
+
+
+.list_meal_elements {
+    display: flex;
+    margin: auto;
+    /* width: 100%; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.say_nothings h1{
+    margin-top: 20px;
+}
+.say_nothings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btnGoPayment svg{
+    fill: #fff;
+    margin-left: 10px;
+}
+.btnGoPayment{
+    width: 200px;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: var(--gold-color) ;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: end;
+    z-index: 5;
+
+}
+
+.displayFlex {
+    display: flex;
+}
+
+.title1 {
+    width: 100%;
+    text-align: center;
+}
